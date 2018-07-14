@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>to-do</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <header>GTD Tools</header>
+     <div id = "box">  
+        <div id ='left'>
+            <div id = 'ClassSelectFram'></div>
+            <div id = 'left_header'>所有任务 (0)</div>
+            <ul id = 'task_classily'></ul>
+            <ul id = 'default_classily'>默认分类</ul>
+           <button id = "set_classily" type = "button"> + 新增分类</button>
+        </div>
+        <div id ='task_list'>
+          <div id = 'taskSelectFram'></div>  
+          <div id = 'list_header'>
+            <button type = 'button'>所有</button>
+            <button type = 'button'>未完成</button>
+            <button type = 'button'>已完成</button>
+          </div>  
+          <ul id = 'task'></ul>
+          <button id = 'set_task' type = 'button'>+ 新增任务</button>
+        </div>
+        <div id ='task_describe'>
+          <input id= 'title_bar' type = 'text' name = 'title_bar'  maxlength="15" /> 
+          <button id= 'Confirm' type = 'button' >完成</button> 
+          <button id= 'revise' type = 'button'>编辑</button>
+          <input id= 'date'  type = 'text' name = 'date'  maxlength="15"  placeholder = '输入格式为xxxx-zz-yy'/> 
+          <textarea  maxlength = '400'></textarea>
+        </div>
+     </div>
+     <script src="main2.js"></script>
+  </body>
+</html>
